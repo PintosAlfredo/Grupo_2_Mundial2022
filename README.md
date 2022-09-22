@@ -17,7 +17,7 @@ Este ecommerce ofrece todas las camisetas de los paises participantes del mundia
 
 3. **María Camila Argüello**: Hola, soy María Camila, tengo 23 años y vivo en Medellín Colombia, soy ingeniera física e hice mis prácticas en una empresa donde tuve la oportunidad de estar en contacto con desarrolladores y personas dentro de la industria de la tecnología, gracias a esto me motivé a realizar este curso y a aprender un poco más sobre programación.
 
-4. **María Camila Argüello**: Hola, mi nombre es Gabriel. Tengo 33 años, soy de Buenos Aires, Argentina y me llama mucho la atención le tecnología y siempre quise aprender a programar, y creo que es momento de empezar y buscar un nuevo trabajo que me permita trabajar de cualquier parte del mundo!
+4. **Gabriel Marasco**: Hola, mi nombre es Gabriel. Tengo 33 años, soy de Buenos Aires, Argentina y me llama mucho la atención le tecnología y siempre quise aprender a programar, y creo que es momento de empezar y buscar un nuevo trabajo que me permita trabajar de cualquier parte del mundo!
 
   
   
