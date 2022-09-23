@@ -5,7 +5,7 @@ Proyecto Integrador Digital House
 
 
 ## Descripción de la oferta y público objetivo
-###GOAT: Greatest of all time
+### GOAT: Greatest of all time
 Este ecommerce ofrece todas las camisetas de los paises participantes del mundial de Qatar 2022, nuestros productos se destacan porque estan firmados oficialmente por los GOATs de cada pais. Nuestro ecommerce esta dedicado para todos los amantes del futbol, los coleccionistas de camisetas y tambien para cualquier publico que este interesado en tener una camiseta especial firmada por el idolo de su pais.
  
 
