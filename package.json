@@ -1,0 +1,23 @@
+{
+  "name": "grupo_2_mundial2022",
+  "version": "1.0.0",
+  "description": "proyecto integrador",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PintosAlfredo/Grupo_2_Mundial2022.git"
+  },
+  "author": "Grupo2-DH-TN44",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PintosAlfredo/Grupo_2_Mundial2022/issues"
+  },
+  "homepage": "https://github.com/PintosAlfredo/Grupo_2_Mundial2022#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20"
+  }
+}
