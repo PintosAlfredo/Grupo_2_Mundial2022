@@ -33,3 +33,17 @@ Este ecommerce ofrece todas las camisetas de los paises participantes del mundia
 4. https://www.reebok.pe/
 
 5. https://www.camisetasclubes.com/
+
+
+## Referencias de CSS
+
+ 1. **Colores**: 
+ **Bordo**: #5A0F23
+ **Azul**: #050F28
+ **Gris**: #C7C7C7
+ **Negro**: #000000
+ **Blanco**: #FFFFFF
+
+ 2. **Iconos**: Todos extraídos de Font awesome
+
+ 3. **Font**: Lato // https://fonts.google.com/specimen/Lato?preview.text=CREA%20TU%20CUENTA%20Shop&preview.text_type=custom
