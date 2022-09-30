@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/PintosAlfredo/Grupo_2_Mundial2022#readme",
   "dependencies": {
+    "bootstrap": "^5.2.1",
     "express": "^4.18.1",
     "nodemon": "^2.0.20"
   }
