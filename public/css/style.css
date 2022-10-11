@@ -16,9 +16,11 @@ body{
      width: 100vw;
      height: 100vh;
      background-color: var(--gris);
+     font-family: 'Lato', sans-serif;
 }
 
 /* --------- HEADER --------- */
+
 
 header{
      background-color:var(--azul);
@@ -28,6 +30,7 @@ header{
 
 }
 
+/* --------- HEADER LOGO --------- */
 header .logos-header{
      margin-left: 10px;
 }
@@ -45,7 +48,7 @@ header .logos-header{
 .logo1 img{
      border-radius: 50%;
 }
-
+/* --------- HEADER INPUT --------- */
 header .input-header{
      border-radius: 10px;
      align-self: center;
@@ -56,6 +59,8 @@ header .search-header i{
      border-radius: 50%;
      padding: 5px;
 }
+
+/* --------- HEADER BURGER --------- */
 
 header .burger-menu{
      font-size: 2em;
@@ -68,17 +73,60 @@ header .burger-menu i{
      color:var(--blanco);
 }
 
+/* --------- HEADER NAV --------- */
+
 nav{
      display: none;
 }
 
 /* --------- MAIN --------- */
 main{
-     height: 500px;
+     width: 100vw;
 }
 
+main .hero-img{
+     width: 100vw;
+     height: 300px;
+}
 
-/* --------- CARROUSEL --------- */
+/* --------- MAIN HERO-IMG --------- */
+
+main .hero-img img{
+     width: 100%;
+     height: 100%;
+}
+
+/* --------- MAIN SECTIOIN-CARDS --------- */
+.card {
+     background-image: url(../img/fondo-home.jpeg);
+     display: flex;
+     padding: 5px;
+}
+
+.card img {
+     width: 50%;
+     border-radius: 10px;
+     box-shadow: 0px 0px 10px rgb(50, 48, 48);
+}
+
+.card p {
+     text-align: center;
+     align-self: center;
+     background-color: var(--gris);
+     margin: 5px;
+     opacity: 40%;
+     border-radius: 10px;
+}
+
+/* --------- MAIN H1 --------- */
+h1{
+     background-color:var(--azul);
+     color: var(--blanco);
+     text-align: center;
+     font-weight: 300;
+}
+
+/* --------- MAIN CARROUSEL --------- */
 
 .carrousel {
      margin-top: 5px;
@@ -148,8 +196,6 @@ main{
 
 
 
-
-
 /* --------- FOOTER --------- */
 footer{
      background-color: var(--azul);
@@ -197,4 +243,35 @@ padding: 10px;
      text-align: center;
 }
 
-/* --------- QUERY --------- */
+/* --------- MEDIAS --------- */
+
+@media (min-width:1024px){
+     .burger-menu{
+          display: none;
+     }
+
+     header{
+          justify-content: space-between;
+     }
+
+     nav{
+          display: flex;
+          margin-right: 20px;
+     }
+
+     nav ul{
+          display: flex;
+          align-self: center;
+          list-style: none;
+     }
+
+     .ul-nav .item-nav{
+          padding: 5px;
+     }
+
+     .item-nav a{
+          color:var(--blanco);
+          text-decoration: none;
+     }
+    
+}
