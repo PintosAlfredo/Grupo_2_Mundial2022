@@ -15,6 +15,7 @@
 body{
      width: 100vw;
      height: 100vh;
+     background-color: var(--gris);
 }
 
 /* --------- HEADER --------- */
@@ -75,6 +76,79 @@ nav{
 main{
      height: 500px;
 }
+
+
+/* --------- CARROUSEL --------- */
+
+.carrousel {
+     margin-top: 5px;
+     width: 100%;
+
+}
+
+.conteCarrousel {
+     width: 100%;
+     height: 500px;
+     overflow: hidden;
+}
+
+.itemCarrousel {
+     position: relative;
+     width: 100%;
+     height: 100%;
+}
+
+.itemCarrouselTarjeta {
+     width: 100%;
+     height: 100%;
+}
+
+.itemCarrouselTarjeta img{
+     width: 100%;
+
+}
+
+.itemCarrouselArrows {
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     height: 100%;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px;
+}
+
+.itemCarrouselArrows>i:hover {
+     cursor: pointer;
+}
+
+
+
+.conteCarrouselController {
+     width: 100%;
+     display: flex;
+     justify-content: space-evenly;
+}
+
+.conteCarrouselController>a {
+     text-decoration: none;
+     font-size: 2em;
+     color: grey;
+}
+
+.itemCarrouselArrows>a>i {
+     color: var(--negro);
+}
+
+
+
+
+
+
 
 /* --------- FOOTER --------- */
 footer{
