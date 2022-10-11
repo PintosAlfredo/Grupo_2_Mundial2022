@@ -1,11 +1,126 @@
-.logo-navbar{
-     width: 75px;
-}
-.nav-item a{
-     color: white;
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
 }
 
-.carousel-css{
-     width: 80vw;
-     margin: auto;
+:root{
+     /* COLOURS */
+     --azul: #050F28;
+     --bordo: #5A0F23;
+     --gris: #C7C7C7;
+      --negro: #000000;
+      --blanco: #FFFFFF;
 }
+body{
+     width: 100vw;
+     height: 100vh;
+}
+
+/* --------- HEADER --------- */
+
+header{
+     background-color:var(--azul);
+     position: sticky;
+     display: flex;
+     justify-content: space-between;
+
+}
+
+header .logos-header{
+     margin-left: 10px;
+}
+
+.logo1 img{
+     width: 75px;
+
+}
+
+
+.logo2 img{
+     width: 75px;
+}
+
+.logo1 img{
+     border-radius: 50%;
+}
+
+header .input-header{
+     border-radius: 10px;
+     align-self: center;
+}
+
+header .search-header i{
+     background-color: var(--blanco);
+     border-radius: 50%;
+     padding: 5px;
+}
+
+header .burger-menu{
+     font-size: 2em;
+     align-self: center;
+     padding: 5px;
+     margin-right: 20px;
+}
+
+header .burger-menu i{
+     color:var(--blanco);
+}
+
+nav{
+     display: none;
+}
+
+/* --------- MAIN --------- */
+main{
+     height: 500px;
+}
+
+/* --------- FOOTER --------- */
+footer{
+     background-color: var(--azul);
+}
+
+footer .sector-footer{
+     display: flex;
+     justify-content: space-between;
+}
+
+.logo-goat{
+     align-self: center;
+}
+
+.logo-goat img{
+     width: 100px;
+     padding: 5px;
+}
+
+
+
+footer .links-footer ul{
+     text-align: center;
+     margin-top: 20px;
+}
+
+footer .links-footer ul li a{
+     color: var(--blanco);
+     text-decoration: none;
+}
+
+footer .redes-footer{
+     align-self: center;
+}
+
+footer .redes-footer i{
+     color: var(--blanco);
+     margin: 5px;
+     font-size: 1.5em;
+     
+}
+.p-footer{
+padding: 10px;
+     color: var(--blanco);
+     text-align: center;
+}
+
+/* --------- QUERY --------- */
