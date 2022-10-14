@@ -4,68 +4,155 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GOAT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../css/style.css" />
-    <title>GOAT</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <div class="logos-header">
-        <div class="logo1">
-          <a href="./"><img src="../img/logo.png" alt="logo1" /></a>
+    <header class="header">
+      <div class="navbar">
+        <a class="full-logo" href="/"
+          ><img class="logo" src="/img/logo.png" /><img
+            class="goat"
+            src="/img/goat.png"
+        /></a>
+        <div class="search">
+          <form class="search-box" action="submit">
+            <input type="search" placeholder="Buscar GOAT">
+            <button type="submit"><i class="fa-solid fa-magnifying-glass glass-box"></i></button>
+          </form>
+          <button class="glass"><i class="fa-solid fa-magnifying-glass glass"></i></button>
         </div>
-        <div class="logo2">
-          <a href="./"><img src="../img/goat.png" alt="logo2" /></a>
-        </div>
-      </div>
-      <div class="input-header">
-        <div class="search-header">
-          <input
-            type="search"
-            name="search"
-            id="search"
-            placeholder="Que estas buscando??"
-          />
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </div>
-      </div>
-      <div class="burger-menu">
-        <i class="fas fa-bars"></i>
-      </div>
-      <nav class="hidden-nav">
-        <ul class="ul-nav">
-          <li class="item-nav"><a href="/productos">Productos</a></li>
-          <li class="item-nav"><a href="/login">Login</a></li>
-          <li class="item-nav"><a href="/shop">Shop</a></li>
-          <li class="item-nav"><a href="/aboutus">Aboutus</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main></main>
-
-    <footer>
-      <div class="sector-footer">
-        <div class="logo-goat">
-          <a href="./"><img src="../img/goat.png" alt="logo2" /></a>
-        </div>
-        <div class="links-footer">
-          <ul class="ul-footer">
-            <li class="li-footer"><a href="/productos">Productos</a></li>
-            <li class="li-footer"><a href="/shop">Shop</a></li>
-            <li class="li-footer"><a href="/contacto">Contacto</a></li>
+        <div class="navbar-menu">
+          <ul>
+            <li><a href="/shop">SHOP</a></li>
+            <li><a href="/about">ABOUT US</a></li>
+            <li><a href="/log">LOGIN</a></li>
           </ul>
         </div>
+        <div class="cart-icon"><i class="fa-solid fa-bag-shopping shopping"></i></i></div>
+        <div class="hamburger"><i class="fa-solid fa-bars burger"></i></div>
+      </div>
+    </header>
 
-        <div class="redes-footer">
-          <i class="fa-brands fa-facebook text-white"></i>
-          <i class="fa-brands fa-instagram text-white"></i>
-          <i class="fa-brands fa-whatsapp text-white"></i>
+    <main class="shop">
+      <div class="shop-title">
+        <ul class="goat-title">
+          <li class="title-a">GREATEST OF ALL TIME</li>
+          <li class="title-b">Camisetas originales del mundial</li>
+          <li class="title-c">Firmadas por tu GOAT</li>
+        </ul>
+        <form class="filter" action="">
+        <label for="filter">Filtrar</label>
+        <select name="filter" id="filter">
+          <optgroup label="Grupo A">
+            <option value="qatar">Qatar</option>
+            <option value="ecuador">Ecuador</option>
+            <option value="senegal">Senegal</option>
+            <option value="netherlands">Holanda</option>
+          </optgroup>
+          <optgroup label="Grupo B">
+            <option value="england">Inglaterra</option>
+            <option value="iran">Iran</option>
+            <option value="united-states">Estados Unidos</option>
+            <option value="wales">Gales</option>
+          </optgroup>
+          <optgroup label="Grupo C">
+            <option value="argentina">Argentina</option>
+            <option value="saudi-arab">Arabia Saudita</option>
+            <option value="mexico">Mexico</option>
+            <option value="poland">Polonia</option>
+          </optgroup>
+          <optgroup label="Grupo D">
+            <option value="france">Francia</option>
+            <option value="australia">Australia</option>
+            <option value="denmark">Dinamarca</option>
+            <option value="tunisia">Túnez</option>
+          </optgroup>
+          <optgroup label="Grupo E">
+            <option value="spain">España</option>
+            <option value="costa-rica">Costa Rica</option>
+            <option value="germany">Alemania</option>
+            <option value="japan">Japon</option>
+          </optgroup>
+          <optgroup label="Grupo F">
+            <option value="belgium">Belgica</option>
+            <option value="canada">Canada</option>
+            <option value="morocco">Morroco</option>
+            <option value="croatia">Croacia</option>
+          </optgroup>
+          <optgroup label="Grupo G">
+            <option value="brazil">Brasil</option>
+            <option value="serbia">Serbia</option>
+            <option value="switzerland">Suiza</option>
+            <option value="cameroon">Camerún</option>
+          </optgroup>
+          <optgroup label="Grupo H">
+            <option value="portugal">Portugal</option>
+            <option value="ghana">Ghana</option>
+            <option value="uruguay">Uruguay</option>
+            <option value="south-korea">Corea Del Sur</option>
+          </optgroup>
+        </select>
+        <input type="submit" value="Aplicar">
+      </form>
+      </div>
+      <div class="shop-products">
+        <div class="group">GRUPO A</div>
+        <div class="group-products">
+          <article class="product">
+            <img src="/img/argentina-camiseta.png"/>
+            <ul class="product-info">
+              <li class="description">Camiseta HOME Argentina 2022</li>
+              <li class="country">Argentina</li>
+              <li class="player">Lionel Messi</li>
+              <li class="price">$ 28,900</li>
+            </ul>
+          </article>
+          <article class="product">
+            <img src="/img/argentina-jugador.png"/>
+            <ul class="product-info">
+              <li class="description">Camiseta HOME Argentina 2022</li>
+              <li class="country">Argentina</li>
+              <li class="player">Lionel Messi</li>
+              <li class="price">$ 28,900</li>
+            </ul>
+          </article>
+          <article class="product">
+            <img src="/img/argentina-camiseta.png"/>
+            <ul class="product-info">
+              <li class="description">Camiseta HOME Argentina 2022</li>
+              <li class="country">Argentina</li>
+              <li class="player">Lionel Messi</li>
+              <li class="price">$ 28,900</li>
+            </ul>
+          </article>
+          <article class="product">
+            <img src="/img/argentina-jugador.png"/>
+            <ul class="product-info">
+              <li class="description">Camiseta HOME Argentina 2022</li>
+              <li class="country">Argentina</li>
+              <li class="player">Lionel Messi</li>
+              <li class="price">$ 28,900</li>
+            </ul>
+          </article>
         </div>
       </div>
-      <p class="p-footer">DigitaHouse TN-44 Grupo2 - www.goat.com</p>
+    </main>
+    <footer>
+      <div class="logo-footer"></div>
+      <div class="sitemap"></div>
+      <div class="socialmedia"></div>
     </footer>
   </body>
 </html>
