@@ -451,70 +451,224 @@ main.shop {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: white;
 }
 
 .shop-title {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  height: 150px;
+  height: 120px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.shop-title ul li.title-a{
+  font-family: 'Passion One', cursive;
+  font-size: 30px;
+}
+
+.shop-title ul li.title-b{
+  font-size: 15px;
+}
+
+.shop-title ul li.title-c{
+  font-family: 'Passion One', cursive;
+  font-style: italic;
+  font-size: 20px;
 }
 
 .goat-title {
   display: flex;
   flex-direction: column;
   list-style: none;
-  padding: 30px;
-  justify-content: space-around;
+  padding: 10px;
 }
 
 li.title-a {
   align-self: flex-start;
   font-size: 30px;
+  padding: 2px;
 }
 
 li.title-b {
   align-self: center;
   font-size: 20px;
+  padding: 2px;
 }
 
 li.title-c {
   align-self: flex-end;
   font-size: 18px;
+  padding: 2px;
 }
 
-.shop-products {
+form.filter label{
+  display: none;
+}
+
+form.filter input{
+  border: none;
+  background-color: #64CAB5;
+  color: white;
+  padding: 4px;
+  margin-left: 5px;
+}
+
+.shop-products-a {
   display: flex;
-  width: 80%;
-  padding-top: 95px;
+  width: 100%;
+  padding-top: 10px;
   align-items: center;
   flex-wrap: wrap;
+  background-color: white;
 }
 
-div.group {
+.shop-products-b {
+  display: flex;
   width: 100%;
+  padding-top: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #F0EFF1;
+}
+
+div.group-x, div.group-y {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
 article.product {
   width: 50%;
+  height: 100%;
   padding: 5px;
 }
 
-article.product img {
+.product-img {
   width: 100%;
   object-fit: cover;
-  height: 80%;
+  height: 200px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
 }
 
-article.product ul li {
+article.product div ul li {
   list-style: none;
 }
 
 .group-products {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  box-sizing: initial;
+  margin: 0 auto;
+  flex-flow: wrap;
+  padding-bottom: 10px;
+}
+
+ul.product-info{
+  display: flex;
+  justify-content: space-between;
+}
+
+article.product div ul li.description{
+  font-weight: bold;
+  font-size: 10px;
+  width: 60%;
+}
+
+article.product div ul li.price{
+  font-size: 12px;
+  font-weight: bold;
+}
+
+article.product div ul .country, .player{
+  display: none;
+}
+
+@media (min-width: 480px) {
+  .shop-title {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0px;
+    justify-content: space-between;
+    width: 80%;
+  }
+
+  article.product {
+    width: 25%;
+  }
+  
+}
+
+@media (min-width:769px){
+  .shop-title {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: -60px;
+  }
+
+  .shop-title ul li.title-a{
+    font-family: 'Passion One', cursive;
+    font-size: 40px;
+  }
+  
+  .shop-title ul li.title-b{
+    font-size: 20px;
+  }
+  
+  .shop-title ul li.title-c{
+    font-family: 'Passion One', cursive;
+    font-style: italic;
+    font-size: 30px;
+  }
+  
+  .shop-products-a {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  
+  .shop-products-b {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  
+  div.group-x{
+    width: 17%;
+    rotate: 270deg;
+    font-size: 23px;
+    height: 100%;
+    flex-grow: 1;
+    white-space: nowrap;
+  }
+
+  div.group-y{
+    width: auto;
+    order: 1;
+    rotate: 90deg;
+    font-size: 20px;
+    flex-grow: 1;
+    white-space: nowrap;
+  }
+
+  .group-products {
+    flex-grow: 10;
+  }  
+
+  .product-img {
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+    max-height: 100%;
+  }
+  
+
 }
 
 /******************FOOTER********************/
