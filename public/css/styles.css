@@ -1,57 +1,64 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lato", "sans-serif";
-  font-size: 16px;
 }
 
-:root {
+:root{
   /* COLOURS */
-  --azul: #050f28;
-  --bordo: #5a0f23;
-  --gris: #c7c7c7;
-  --negro: #000000;
-  --blanco: #ffffff;
+  --azul: #050F28;
+  --bordo: #5A0F23;
+  --gris: #C7C7C7;
+   --negro: #000000;
+   --blanco: #FFFFFF;
 }
-body {
+body{
   width: 100vw;
   height: 100vh;
   background-color: var(--gris);
+  font-family: 'Lato', sans-serif;
 }
 
+
+/* ------------------------------------------------------------------ */
+/* --------- INDEX.HTML --------- */
+/* ------------------------------------------------------------------ */
 /* --------- HEADER --------- */
 
-header.page {
-  background-color: var(--azul);
+
+header.page{
+  background-color:var(--azul);
   position: sticky;
   display: flex;
   justify-content: space-between;
+
 }
 
 /* --------- HEADER LOGO --------- */
-header .logos-header {
+header .logos-header{
   margin-left: 10px;
 }
 
-.logo1 img {
+.logo1 img{
+  width: 75px;
+
+}
+
+
+.logo2 img{
   width: 75px;
 }
 
-.logo2 img {
-  width: 75px;
-}
-
-.logo1 img {
+.logo1 img{
   border-radius: 50%;
 }
 /* --------- HEADER INPUT --------- */
-header .input-header {
+header .input-header{
   border-radius: 10px;
   align-self: center;
 }
 
-header .search-header i {
+header .search-header i{
   background-color: var(--blanco);
   border-radius: 50%;
   padding: 5px;
@@ -59,36 +66,36 @@ header .search-header i {
 
 /* --------- HEADER BURGER --------- */
 
-header .burger-menu {
+header .burger-menu{
   font-size: 2em;
   align-self: center;
   padding: 5px;
   margin-right: 20px;
 }
 
-header .burger-menu i {
-  color: var(--blanco);
+header .burger-menu i{
+  color:var(--blanco);
 }
 
 /* --------- HEADER NAV --------- */
 
-nav {
+nav{
   display: none;
 }
 
 /* --------- MAIN --------- */
-main {
+main{
   width: 100vw;
 }
 
-main .hero-img {
+main .hero-img{
   width: 100vw;
   height: 300px;
 }
 
 /* --------- MAIN HERO-IMG --------- */
 
-main .hero-img img {
+main .hero-img img{
   width: 100%;
   height: 100%;
 }
@@ -116,8 +123,8 @@ main .hero-img img {
 }
 
 /* --------- MAIN H1 --------- */
-h1 {
-  background-color: var(--azul);
+h1{
+  background-color:var(--azul);
   color: var(--blanco);
   text-align: center;
   font-weight: 300;
@@ -128,6 +135,7 @@ h1 {
 .carrousel {
   margin-top: 5px;
   width: 100%;
+
 }
 
 .conteCarrousel {
@@ -147,8 +155,9 @@ h1 {
   height: 100%;
 }
 
-.itemCarrouselTarjeta img {
+.itemCarrouselTarjeta img{
   width: 100%;
+
 }
 
 .itemCarrouselArrows {
@@ -165,9 +174,11 @@ h1 {
   padding: 20px;
 }
 
-.itemCarrouselArrows > i:hover {
+.itemCarrouselArrows>i:hover {
   cursor: pointer;
 }
+
+
 
 .conteCarrouselController {
   width: 100%;
@@ -175,91 +186,198 @@ h1 {
   justify-content: space-evenly;
 }
 
-.conteCarrouselController > a {
+.conteCarrouselController>a {
   text-decoration: none;
   font-size: 2em;
   color: grey;
 }
 
-.itemCarrouselArrows > a > i {
+.itemCarrouselArrows>a>i {
   color: var(--negro);
 }
 
+
+
+
+
 /* --------- FOOTER --------- */
-footer {
+footer{
   background-color: var(--azul);
 }
 
-footer .sector-footer {
+footer .sector-footer{
   display: flex;
   justify-content: space-between;
 }
 
-.logo-goat {
+.logo-goat{
   align-self: center;
 }
 
-.logo-goat img {
+.logo-goat img{
   width: 100px;
   padding: 5px;
 }
 
-footer .links-footer ul {
+
+
+footer .links-footer ul{
   text-align: center;
   margin-top: 20px;
 }
 
-footer .links-footer ul li a {
+footer .links-footer ul li a{
   color: var(--blanco);
   text-decoration: none;
 }
 
-footer .redes-footer {
+footer .redes-footer{
   align-self: center;
 }
 
-footer .redes-footer i {
+footer .redes-footer i{
   color: var(--blanco);
   margin: 5px;
   font-size: 1.5em;
+  
 }
-.p-footer {
-  padding: 10px;
+.p-footer{
+padding: 10px;
   color: var(--blanco);
   text-align: center;
 }
 
+
+
+/* ------------------------------------------------------------------ */
+/* --------- LOGIN.HTML --------- */
+/* ------------------------------------------------------------------ */
+
+.contenedor-contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+  height: 40vh;
+
+}
+
+.contenedor-contenido-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  width: 60vw;
+
+}
+
+form.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+form.login input {
+  margin: 5px 0px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 10px;
+  line-height: 2em;
+  width: 30vw;
+  background-color: var(--blanco);
+}
+
+form.login button {
+  background-color: var(--bordo);
+  margin: 5px 0px;
+  border: solid 1px var(--bordo);
+  margin: 2em;
+  padding: 0.5em;
+  border-radius: 10%;
+  font-size: 10px;
+  width: 30vw;
+  color: white;
+  text-align: center;
+  transition-property: color;
+  transition-duration: 400ms;
+
+
+}
+
+form.login button:hover {
+  background-color: aquamarine;
+  border: solid 1px aquamarine;
+
+}
+
+form a.ir-a {
+  font-size: 10px;
+  color: aquamarine;
+  padding-top: 5px;
+}
+
+.contenido {
+  display: flex;
+  height: 90vh;
+  color: var(--blanco);
+  /* font-family: 'Roboto', sans-serif; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--azul);
+}
+
+.contenido-2 {
+  display: flex;
+  color: white;
+  height: 90vh;
+  background-color: var(--azul);
+  /* font-family: 'Roboto', sans-serif; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+
 /* --------- MEDIAS --------- */
 
-@media (min-width: 1024px) {
-  .burger-menu {
-    display: none;
+@media (min-width:1024px){
+  .burger-menu{
+       display: none;
   }
 
-  header.page {
-    justify-content: space-between;
+  header{
+       justify-content: space-between;
   }
 
-  nav {
-    display: flex;
-    margin-right: 20px;
+  nav{
+       display: flex;
+       margin-right: 20px;
   }
 
-  nav ul {
-    display: flex;
-    align-self: center;
-    list-style: none;
+  nav ul{
+       display: flex;
+       align-self: center;
+       list-style: none;
   }
 
-  .ul-nav .item-nav {
-    padding: 5px;
+  .ul-nav .item-nav{
+       padding: 5px;
   }
 
-  .item-nav a {
-    color: var(--blanco);
-    text-decoration: none;
+  .item-nav a{
+       color:var(--blanco);
+       text-decoration: none;
   }
+ 
 }
+
 
 /*****MIN STYLES (Lo dejo separado por ahora hasta unificar todos los estilos de las paginas)*****/
 
@@ -346,7 +464,7 @@ img.goat {
     align-items: center;
   }
 
-  input[type="search"] {
+  input.searcher {
     display: block;
     background: transparent;
     margin: 0;
