@@ -322,13 +322,79 @@ form a.ir-a {
 
 .contenido {
   display: flex;
-  height: 90vh;
+  height: 70vh;
   color: var(--blanco);
   /* font-family: 'Roboto', sans-serif; */
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: var(--azul);
+}
+
+.contenedor-contenido{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+
+
+}
+
+form.login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+form.login input{
+  margin: 5px 0px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 10px;
+  line-height: 2em;
+  width: 30vw;
+  background-color: white;
+}
+
+form.login button{
+  background-color:#5A0F23;
+  margin: 5px 0px;
+  border: solid 1px #5A0F23;
+  margin: 2em;
+  padding: 0.5em;
+  border-radius: 10%;
+  font-size: 10px;
+  width: 30vw;
+  color: white;
+  text-align: center;
+  transition-property: color ;
+  transition-duration: 400ms;
+
+
+}
+
+form.login button:hover{
+  background-color: aquamarine;
+  border: solid 1px aquamarine;
+
+}
+
+form a.ir-a{
+  font-size: 10px;
+  color:aquamarine;
+  padding-top: 5px;
+}
+.contenido{
+  display: flex;
+
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .contenido-2 {
