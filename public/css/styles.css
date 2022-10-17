@@ -656,7 +656,6 @@ img.goat {
 
 @media (min-width: 769px) {
   .header {
-    position: sticky;
     height: 60px;
   }
 
@@ -945,6 +944,7 @@ select[name="sizes"]{
   text-align: center;
   background-color: #5A0F23;
   color: white;
+  height: 10vh;
 }
 
 a button.checkout{
@@ -1001,7 +1001,7 @@ div.info-img-a{
 div.information-a p{
   text-align: center;
   padding: 10px;
-  font-size: 15px;
+  font-size: 10px;
 }
 
 div.information-b{
@@ -1013,7 +1013,7 @@ div.information-b{
 div.information-b p{
   text-align: center;
   padding: 10px;
-  font-size: 15px;
+  font-size: 10px;
 }
 
 @media (min-width: 480px) {
@@ -1027,6 +1027,47 @@ div.information-b p{
 
   article.product {
     width: 25%;
+  }
+
+  div.presentation{
+    flex-direction: row;
+  }
+
+  div.fact-box ul li{
+    width: 140px;
+  }
+
+  div.information-a{
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  div.information-b{
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10vh;
+  }
+
+  div.info-img-a{
+    order: 0;
+    width: 35%;
+  }
+
+  div.info-img-b{
+    order: 0;
+    width: 35%;
+  }
+
+  div.information-a p{
+    width: 50%;
+  }
+
+  div.information-b p{
+    width: 50%;
   }
   
 }
@@ -1125,9 +1166,60 @@ div.information-b p{
     color: var(--negro);  
   }
 
-  ul.product-info{
-    flex-wrap: wrap;
-  }  
+  div.info-title div{
+    font-size: 3rem;
+  }
+
+  div.facts-title{
+    font-size: 2rem;
+  }
+
+  div.fact-box h4{
+    font-size: 1.5rem;
+  }
+
+  div.fact-box ul li{
+    width: 170px;
+    font-size: 1.2rem;
+  }
+
+  div.information-a{
+    padding-top: 20px;
+  }
+
+  div.product-title{
+    width: 100%;
+    font-size: 20px;
+  }
+  
+  div.size{
+    width: 100%;
+    text-align: center;
+  }
+  
+  select[name="sizes"]{
+    width: 40%;
+    font-size: 20px;
+  }
+  
+  a.checkout{
+    width: 20%;
+  }
+
+  a button.checkout{
+    white-space: row;
+    font-size: 20px;
+  }
+
+  div.information-a p{
+    font-size: 1.5rem;
+    margin: 10px;
+  }
+
+  div.information-b p{
+    font-size: 1.5rem;
+    margin: 10px;
+  }
 
 }
 
