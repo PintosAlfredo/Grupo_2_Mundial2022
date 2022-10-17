@@ -8,7 +8,7 @@
   /* COLOURS */
   --azul: #050F28;
   --bordo: #5A0F23;
-  --gris: #C7C7C7;
+  --gris: #F0EFF1;
    --negro: #000000;
    --blanco: #FFFFFF;
 }
@@ -585,7 +585,6 @@ img.goat {
     flex-grow: 0.1;
     align-items: center;
     position: relative;
-    right: 55px;
   }
 
   img.logo {
@@ -756,19 +755,177 @@ ul.product-info{
   justify-content: space-between;
 }
 
-article.product div ul li.description{
+article.product div ul li.description a{
   font-weight: bold;
   font-size: 10px;
   width: 60%;
+  text-decoration: none;
+  color: var(--negro);
 }
 
-article.product div ul li.price{
+article.product div ul li.price a{
   font-size: 12px;
   font-weight: bold;
+  text-decoration: none;
+  color: var(--negro);
 }
 
-article.product div ul .country, .player{
+article.product div ul li.player{
   display: none;
+}
+
+div.presentation{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  overflow: auto;
+  padding-top: 50px;
+  justify-content: center;
+}
+
+div.info-title{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+div.info-title div{
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+
+div.main-img{
+  width: 100%;
+}
+
+div.main-img img{
+  width: 100%;
+}
+
+div.big-img img{
+  width: 100%;
+}
+
+div.info-img-a img{
+  width: 100%;
+}
+
+div.info-img-b img{
+  width: 100%;
+}
+
+div.product-footer{
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 10vh;
+  background-color:#5A0F23;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.product-box{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+div.product-title{
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  white-space: wrap;
+  width: 50%;
+  border-right: 1px solid var(--gris);
+  padding: 10px;
+}
+
+div.size{
+  width: 50%;
+  text-align: center;
+}
+
+select[name="sizes"]{
+  width: 60%;
+  border: none;
+  padding: 18px 0px;
+  text-align: center;
+  background-color: #5A0F23;
+  color: white;
+}
+
+a button.checkout{
+  background-color:#050f28;
+  color: white;
+  font-weight: bold;
+  height: 10vh;
+  width: 100%;
+  border: none;
+  text-align: center;
+  padding: 10px;
+}
+
+div.player-facts{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px double black;
+  padding: 15px;
+  margin: 10px;
+}
+
+div.facts-title{
+  width: 100%;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+div.fact-box{
+  text-align: center;
+  padding-top: 5px;
+}
+
+div.fact-box ul{
+  list-style: none;
+  font-size: 12px;
+}
+
+div.fact-box ul li{
+  border: 1px solid black;
+  padding: 3px;
+}
+
+div.information-a{
+  display: flex;
+  flex-direction: column;
+}
+
+div.info-img-a{
+  order: 1;
+}
+
+div.information-a p{
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+}
+
+div.information-b{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+
+div.information-b p{
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
 }
 
 @media (min-width: 480px) {
@@ -787,6 +944,7 @@ article.product div ul .country, .player{
 }
 
 @media (min-width:769px){
+
   .shop-title {
     flex-direction: row;
     align-items: center;
@@ -849,10 +1007,106 @@ article.product div ul .country, .player{
     height: auto;
     padding-bottom: 10px;
     border-bottom: 1px solid gray;
-    max-height: 100%;
+    max-height: fit-contentw;
+    height: 40vh;
   }
   
+  article.product div ul li.description a{
+    font-weight: bold;
+    font-size: 10px;    
+    flex-grow: 0.6;
+    margin-right: 5px;
+  }
+  
+  article.product div ul li.price a{
+    font-size: 12px;
+    font-weight: bold;
+    flex-grow: 0.4;
+  } 
+
+  article.product div ul li.player{
+    display: flex;
+    order: 1;
+    width: 60%;
+  }
+
+  article.product div ul li.player a{
+    font-size: 10px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: var(--negro);  
+  }
+
+  ul.product-info{
+    flex-wrap: wrap;
+  }  
 
 }
 
 /******************FOOTER********************/
+
+footer.footer{
+  display: flex;
+  height: 110px;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo-box{
+  width: 70px;
+  margin-left: 10px;
+}
+
+.footer-logo{
+  width: 100%;
+}
+
+ul.footer-list{
+  text-align: center;
+}
+
+ul.footer-list li a{
+  color: var(--gris);
+  text-decoration: none;
+  list-style: none;
+  padding: 4px;
+  font-size: 12px;
+}
+
+.social-media a{
+  color: white;
+  padding: 3px;
+  font-size: 20px;
+}
+
+.sign{
+  width: 100%;
+  color: rgb(191, 191, 191);
+  font-size: 8px;
+  text-align: center;
+}
+
+@media (min-width: 480px){
+  footer.footer{
+    height: 82px;
+  }
+
+  ul.footer-list{
+    display: inline-flex;
+    list-style: none;
+  }
+
+  ul.footer-list li{
+    padding: 10px;
+  }  
+
+  .sign{
+    padding-bottom: 5px;
+    text-align: center;
+  }
+}
+
+@media (min-width:769px){
+
+}

@@ -7,8 +7,10 @@
     <title>GOAT</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Passion+One:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -18,6 +20,7 @@
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
     <header class="header">
       <div class="navbar">
@@ -28,10 +31,14 @@
         /></a>
         <div class="search">
           <form class="search-box" action="submit">
-            <input type="search" placeholder="Buscar GOAT">
-            <button type="submit"><i class="fa-solid fa-magnifying-glass glass-box"></i></button>
+            <input class="searcher" type="search" placeholder="Buscar GOAT" />
+            <button type="submit">
+              <i class="fa-solid fa-magnifying-glass glass-box"></i>
+            </button>
           </form>
-          <button class="glass"><i class="fa-solid fa-magnifying-glass glass"></i></button>
+          <button class="glass">
+            <i class="fa-solid fa-magnifying-glass glass"></i>
+          </button>
         </div>
         <div class="navbar-menu">
           <ul>
@@ -40,18 +47,84 @@
             <li><a href="/log">LOGIN</a></li>
           </ul>
         </div>
-        <div class="cart-icon"><i class="fa-solid fa-bag-shopping shopping"></i></i></div>
+        <div class="cart-icon">
+          <i class="fa-solid fa-bag-shopping shopping"></i>
+        </div>
         <div class="hamburger"><i class="fa-solid fa-bars burger"></i></div>
       </div>
     </header>
-
     <main>
-        
+      <div class="presentation">
+        <div class="info-title">
+          <div>ARGENTINA</div>
+          <div>HOME KIT</div>
+          <div>LIONEL MESSI</div>
+        </div>
+        <div class="main-img"><img src="/img/jersey.jpeg" /></div>
+      </div>
+      <div class="product-footer">
+        <div class="product-box">
+          <div class="product-title">Argentina Home Kit</div>
+          <div class="size">
+            <label for="sizes"></label>
+            <select name="sizes" id="sizes" required>
+              <option value="" disabled selected hidden>Talles</option>
+              <option value="XS">Xsmall</option>
+              <option value="S">Small</option>
+              <option value="M">Medium</option>
+              <option value="L">Large</option>
+              <option value="XL">Xlarge</option>
+            </select>
+          </div>
+        </div>
+        <a href="/cart"><button class="checkout">$28,900 CHECKOUT</button></div></a>
+      </div>
+      <div class="big-img"><img src="/img/messi.jpeg" /></div>
+      <div class="player-facts">
+        <div class="facts-title"><h3>GOAT facts</h3></div>
+        <div class="fact-box">
+          <h4>Argentina</h4>
+          <ul>
+            <li>Partidos: 163</li>
+            <li>Goles: 90</li>
+            <li>Titulos: 4</li>
+          </ul>
+        </div>
+        <div class="fact-box">
+          <h4>Barcelona</h4>
+          <ul>
+            <li>Partidos: 778</li>
+            <li>Goles: 672</li>
+            <li>Titulos: 35</li>
+          </ul>
+        </div>
+        <div class="fact-box">
+          <h4>Total</h4>
+          <ul>
+            <li>Partidos: 988</li>
+            <li>Goles: 781</li>
+            <li>Titulos: 41</li>
+          </ul>
+        </div>
+      </div>
+      <div class="information-a">
+        <div class="info-img-a"><img src="/img/messi-a.jpeg" /></div>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
+          repellat, modi nemo nostrum, veniam vitae necessitatibus iure magni
+          dolor dolorem hic architecto, vel quia sed excepturi eaque! Veniam,
+          dolor magni!
+        </p>
+      </div>
+      <div class="information-b">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+          minima tempore voluptas ullam at ducimus amet nemo, blanditiis vel
+          corporis ab veritatis vitae perferendis esse placeat quos deserunt in
+          cum.
+        </p>
+        <div class="info-img-b"><img src="/img/messi-b.jpeg" /></div>
+      </div>
     </main>
-    <footer>
-      <div class="logo-footer"></div>
-      <div class="sitemap"></div>
-      <div class="socialmedia"></div>
-    </footer>
   </body>
 </html>
