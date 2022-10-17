@@ -3,7 +3,6 @@
 Proyecto Integrador Digital House
 
 
-
 ## Descripción de la oferta y público objetivo
 ### GOAT: Greatest of all time
 Este ecommerce ofrece todas las camisetas de los paises participantes del mundial de Qatar 2022, nuestros productos se destacan porque estan firmados oficialmente por los GOATs de cada pais. Nuestro ecommerce esta dedicado para todos los amantes del futbol, los coleccionistas de camisetas y tambien para cualquier publico que este interesado en tener una camiseta especial firmada por el idolo de su pais.
@@ -19,8 +18,12 @@ Este ecommerce ofrece todas las camisetas de los paises participantes del mundia
 
 4. **Gabriel Marasco**: Hola, mi nombre es Gabriel. Tengo 33 años, soy de Buenos Aires, Argentina y me llama mucho la atención le tecnología y siempre quise aprender a programar, y creo que es momento de empezar y buscar un nuevo trabajo que me permita trabajar de cualquier parte del mundo!
 
-  
-  
+
+## Links de trabajo grupal
+
+1. **GITHUB**: https://github.com/PintosAlfredo/Grupo_2_Mundial2022.git
+2. **TRELLO**: https://trello.com/b/zwrQ1LhW/grupo-2
+
 
 ## Sitios de referencia
 
