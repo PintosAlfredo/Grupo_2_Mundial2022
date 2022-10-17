@@ -27,6 +27,9 @@ app.get('/about', (req, res) => {
 app.get('/contact', (req, res) => {
     res.sendFile(path.join(__dirname,"./views/contact.html"))
 })
+app.get('/cart', (req, res) => {
+    res.sendFile(path.join(__dirname,"./views/cart.html"))
+})
 
 app.listen(port, ()=>console.log(`Servidor corriendo en puerto ${port}`))
  
