@@ -26,7 +26,7 @@ body{
 /* --------- HEADER --------- */
 
 
-header.page{
+/* header.page{
   background-color:var(--azul);
   position: sticky;
   display: flex;
@@ -34,7 +34,7 @@ header.page{
 
 }
 
-/* --------- HEADER LOGO --------- */
+
 header .logos-header{
   margin-left: 10px;
 }
@@ -52,7 +52,7 @@ header .logos-header{
 .logo1 img{
   border-radius: 50%;
 }
-/* --------- HEADER INPUT --------- */
+
 header .input-header{
   border-radius: 10px;
   align-self: center;
@@ -64,7 +64,7 @@ header .search-header i{
   padding: 5px;
 }
 
-/* --------- HEADER BURGER --------- */
+
 
 header .burger-menu{
   font-size: 2em;
@@ -77,12 +77,12 @@ header .burger-menu i{
   color:var(--blanco);
 }
 
-/* --------- HEADER NAV --------- */
+
 
 nav{
   display: none;
 }
-
+ */
 /* --------- MAIN --------- */
 main{
   width: 100vw;
@@ -528,6 +528,10 @@ max-height: 100%;
   .item-nav a{
        color:var(--blanco);
        text-decoration: none;
+  }
+
+  .hamburger{
+     display: none;
   }
  
 }
