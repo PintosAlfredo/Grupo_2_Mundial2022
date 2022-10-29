@@ -4,8 +4,8 @@
   "description": "proyecto integrador",
   "main": "app.js",
   "scripts": {
-    "test": "nodemon ./app.js",
-    "start": "node ./app.js"
+    "test": "nodemon ./src/app.js",
+    "start": "node ./src/app.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,11 @@
   },
   "homepage": "https://github.com/PintosAlfredo/Grupo_2_Mundial2022#readme",
   "dependencies": {
-    "express": "^4.18.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "express-generator": "^4.16.1",
     "nodemon": "^2.0.20"
   }
 }

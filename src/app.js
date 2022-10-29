@@ -1,8 +1,11 @@
 const express = require('express');
 const path = require('path')
 const app = express();
-const publicPath = path.resolve(__dirname, './public')
+const publicPath = path.resolve(__dirname, '../public')
 const port = process.env.PORT || 8000
+
+/*---View app---*/
+
 app.use(express.static(publicPath))
 
 app.get('/', (req, res) => {
@@ -32,5 +35,3 @@ app.get('/cart', (req, res) => {
 })
 
 app.listen(port, ()=>console.log(`Servidor corriendo en puerto ${port}`))
- 
- 
