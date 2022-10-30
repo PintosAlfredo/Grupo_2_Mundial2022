@@ -472,8 +472,7 @@ max-height: 100%;
 }
 
 @media (min-width:769px){
-  .cart-item-img{
-  }
+ 
   .cart-item-info {
     text-align: center;
   }
