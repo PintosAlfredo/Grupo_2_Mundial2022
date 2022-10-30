@@ -1294,3 +1294,134 @@ ul.footer-list li a{
 @media (min-width:769px){
 
 }
+
+
+.contenedor-formulario{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--azul);
+  width: 100vw;
+  margin: auto;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.formulario-admin{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  padding: 2em 2em;
+  color: #000000;
+}
+
+.formulario-admin .botones-product{
+  padding: 5px;
+  background-color:#5A0F23;
+  margin: 5px 0px;
+  border: solid 1px #5A0F23;
+  margin: 2em;
+  padding: 0.5em;
+  border-radius: 10%;
+  font-size: 15px;
+  width: 20vw;
+  color: white;
+  text-align: center;
+  transition-property: color ;
+  transition-duration: 400ms;
+  font-style: normal;
+}
+
+
+
+.formulario-admin .botones-product:hover{
+  background-color: aquamarine;
+  border: solid 1px aquamarine;
+
+}
+
+.contenedor-formulario2{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--azul);
+  width: 100vw;
+  margin: auto;
+  height: 30vh;
+  align-items: center;
+  justify-content: baseline;
+  border: #5A0F23 3px dashed;
+  box-sizing: border-box;
+
+
+}
+
+
+.contenedor-crear {
+  background-color: var(--azul);
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 20px gray;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  color: var(--blanco);
+  justify-content: center;
+  align-items: center;
+  background-color: var(--azul);
+  padding: 5%;
+
+}
+
+.division{
+  width: 60vw;
+  display: flex;
+  flex-direction: row;
+  font-size: 10px;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.division #categoria3, #categoria2, #categoria1, #color3, #color2, #color1{
+  width: 10px;
+}
+
+.division h1{
+  font-weight: bold;
+  margin: auto;
+  padding-top: 2%;
+}
+
+.division p{
+  font-weight: bold;
+  margin: auto;
+  padding-bottom: 4%;
+}
+
+
+.botones-crear{
+  padding: 5px;
+  background-color:#5A0F23;
+  margin: 5px 0px;
+  border: solid 1px #5A0F23;
+  margin: 2em;
+  padding: 0.5em;
+  border-radius: 10%;
+  font-size: 10px;
+  width: 20vw;
+  color: white;
+  text-align: center;
+  transition-property: color ;
+  transition-duration: 400ms;
+  font-style: normal;
+}
+
+
+
+ .botones-crear:hover{
+  background-color: aquamarine;
+  border: solid 1px aquamarine;
+
+}

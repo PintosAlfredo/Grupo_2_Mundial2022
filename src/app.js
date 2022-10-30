@@ -18,6 +18,7 @@ const shopRouter=require('./routes/shop')
 const aboutRouter=require('./routes/about')
 const contactRouter=require('./routes/contact')
 const cartRouter=require('./routes/cart')
+const adminRouter=require('./routes/admin')
 /*---View app---*/
 app.use(express.static(publicPath))
 app.use('/', mainRouter);
@@ -28,6 +29,7 @@ app.use('/shop',shopRouter)
 app.use('/about',aboutRouter)
 app.use('/contact',contactRouter)
 app.use('/cart',cartRouter)
+app.use('/administrator',adminRouter)
 
 
 
