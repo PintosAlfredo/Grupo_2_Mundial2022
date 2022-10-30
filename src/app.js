@@ -4,34 +4,32 @@ const app = express();
 const publicPath = path.resolve(__dirname, '../public')
 const port = process.env.PORT || 8000
 
+// view engine setup
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'ejs');
+
+/*----Routes-----*/
+app.set('views', path.join(__dirname, 'views'));
+const mainRouter=require('./routes/main')
+const productRouter=require('./routes/product')
+const logRouter=require('./routes/log')
+const registerRouter=require('./routes/register')
+const shopRouter=require('./routes/shop')
+const aboutRouter=require('./routes/about')
+const contactRouter=require('./routes/contact')
+const cartRouter=require('./routes/cart')
 /*---View app---*/
-
 app.use(express.static(publicPath))
+app.use('/', mainRouter);
+app.use('/product', productRouter)
+app.use('/log', logRouter)
+app.use('/register', registerRouter)
+app.use('/shop',shopRouter)
+app.use('/about',aboutRouter)
+app.use('/contact',contactRouter)
+app.use('/cart',cartRouter)
 
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname,"./views/index.html"))
-})
 
-app.get('/product', (req, res) => {
-    res.sendFile(path.join(__dirname,"./views/product.html"))
-})
-app.get('/log', (req, res) => {
-    res.sendFile(path.join(__dirname,"./views/log.html"))
-})
-app.get('/register', (req, res) => {
-    res.sendFile(path.join(__dirname,"./views/register.html"))
-})
-app.get('/shop', (req, res) => {
-    res.sendFile(path.join(__dirname,"./views/shop.html"))
-})
-app.get('/about', (req, res) => {
-    res.sendFile(path.join(__dirname,"./views/about.html"))
-})
-app.get('/contact', (req, res) => {
-    res.sendFile(path.join(__dirname,"./views/contact.html"))
-})
-app.get('/cart', (req, res) => {
-    res.sendFile(path.join(__dirname,"./views/cart.html"))
-})
+
 
 app.listen(port, ()=>console.log(`Servidor corriendo en puerto ${port}`))
