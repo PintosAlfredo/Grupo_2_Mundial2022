@@ -1,54 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-rel="stylesheet"
-/>
-<link rel="stylesheet" href="../css/styles.css" />
-    <title>GOAT</title>
-  </head>
+
+  <%- include('./partials/head')%>
+
   <body>
-    <header class="header">
-      <div class="navbar">
-        <a class="full-logo" href="/"
-          ><img class="logo" src="/img/logo.png" /><img
-            class="goat"
-            src="/img/goat.png"
-        /></a>
-        <div class="search">
-          <form class="search-box" action="submit">
-            <input class="searcher" type="search" placeholder="Buscar GOAT" />
-            <button type="submit">
-              <i class="fa-solid fa-magnifying-glass glass-box"></i>
-            </button>
-          </form>
-          <button class="glass">
-            <i class="fa-solid fa-magnifying-glass glass"></i>
-          </button>
-        </div>
-        <div class="navbar-menu">
-          <ul>
-            <li><a href="/shop">SHOP</a></li>
-            <li><a href="/about">ABOUT US</a></li>
-            <li><a href="/log">LOGIN</a></li>
-          </ul>
-        </div>
-        <div class="cart-icon">
-          <a href="/cart"><i class="fa-solid fa-bag-shopping shopping"></i></a>
-        </div>
-        <div class="hamburger"><i class="fa-solid fa-bars burger"></i></div>
-      </div>
-    </header>
+
+    <%- include('./partials/header')%>
+
     <main>
      <div class="hero-img">
           <img src="./img/foto-home.jpg" alt="hero-img">
@@ -64,7 +22,6 @@ rel="stylesheet"
            <article class="card">
               
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo perferendis, corporis nesciunt aliquid error veritatis deleniti illum autem sit id labore, repellat eligendi ducimus magni voluptate quod facilis quae reprehenderit.</p>
-
                 <img src="./img/argentina-camiseta.png" alt="img-card1">
           </article> -->
 
@@ -111,28 +68,9 @@ rel="stylesheet"
             </div>
         </div>
 
-
-   
-
     </main>
 
-   <footer class="footer">
-      <div class="logo-box">
-        <a href="/"><img class="footer-logo" src="/img/goat.png"></a>
-      </div>
-      <div class="sitemap">
-        <ul class="footer-list">
-          <li><a href="/">HOME</a></li>
-          <li><a href="/about">ABOUT</a></li>
-          <li><a href="/log">LOGIN</a></li>
-        </ul>
-      </div>
-      <div class="social-media">
-        <a href="http://instagram.com"><i class="fa-brands fa-instagram"></i></a>
-        <a href="http://facebook.com"><i class="fa-brands fa-facebook"></i></a>
-        <a href="http://whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a>
-      </div>
-      <div class="sign">GOAT project - Digitalhouse - TN44/Grupo 2</div>
-    </footer>
+    <%- include('./partials/footer')%>
+    
   </body>
 </html>
