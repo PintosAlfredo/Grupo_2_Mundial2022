@@ -6,7 +6,6 @@
     <body>
         <%- include('./partials/header')%>
 
-
             <main>
 
                 <div class="contenedor-formulario2">
@@ -27,7 +26,7 @@
                     <div class="division">
                         <p>Modifica tus productos</p>
                     </div>
-                    <form action="/" method="get" class="login">
+                    <form action="/" method="post" class="login" action="/product/:id/?_method=PUT">
 
                         <div class="division">
                             <label for="producto-modificar">¿Qué producto deseas modificar?</label>
