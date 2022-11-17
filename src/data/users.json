@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "firstName": "Cristiano",
+        "lastName": "Ronaldo",
+        "email": "cristiano.ronaldo.SIUUU@balondeoro.com",
+        "password": "SoyMejorQueMessi123",
+        "type": "Admin",
+        "avatar": "cristiano.png"
+    }
+]

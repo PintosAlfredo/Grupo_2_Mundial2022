@@ -1,0 +1,293 @@
+{
+    "teams": [
+        {
+            "id": 1 ,
+            "teamName": "Catar" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 50 ,
+            "offer" : true,
+            "price": 99
+    
+        }
+        ,{
+            "id": 2 ,
+            "teamName": "Ecuador" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 70 ,
+            "offer" : false,
+            "price": 99
+    
+        },
+        {
+            "id": 3 ,
+            "teamName": "Paises Bajos" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 25 ,
+            "offer" : false,
+            "price": 99
+    
+        }
+        ,{
+            "id": 4 ,
+            "teamName": "Senegal" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 38 ,
+            "offer" : true,
+            "price": 99
+    
+        },
+        {
+            "id": 5 ,
+            "teamName": "Estados Unidos" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 20 ,
+            "offer" : true,
+            "price": 99
+    
+        }
+        ,{
+            "id": 6 ,
+            "teamName": "Gales" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 43 ,
+            "offer" : false,
+            "price": 99
+    
+        },
+        {
+            "id": 7 ,
+            "teamName": "Inglaterra" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 80 ,
+            "offer" : false,
+            "price": 99
+    
+        }
+        ,{
+            "id": 8 ,
+            "teamName": "Iran" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 29 ,
+            "offer" : true,
+            "price": 99
+    
+        },
+        {
+            "id": 9 ,
+            "teamName": "Argentina" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 100 ,
+            "offer" : true,
+            "price": 99
+    
+        }
+        ,{
+            "id": 10 ,
+            "teamName": "Arabia Saudita" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 50 ,
+            "offer" : false,
+            "price": 99
+    
+        },
+        {
+            "id": 11 ,
+            "teamName": "Mexico" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 75 ,
+            "offer" : true,
+            "price": 99
+    
+        }
+        ,{
+            "id": 12 ,
+            "teamName": "Polonia" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 39 ,
+            "offer" : false,
+            "price": 99
+    
+        },
+        {
+            "id": 13 ,
+            "teamName": "Francia" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 69 ,
+            "offer" : false,
+            "price": 99
+    
+        }
+        ,{
+            "id": 14 ,
+            "teamName": "Australia" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 33 ,
+            "offer" : true,
+            "price": 99
+    
+        },
+        {
+            "id": 15 ,
+            "teamName": "Dinamarca" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 45 ,
+            "offer" : true,
+            "price": 99
+    
+        }
+        ,{
+            "id": 16 ,
+            "teamName": "Tunez" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 56 ,
+            "offer" : false,
+            "price": 99
+    
+        },
+        {
+            "id": 17 ,
+            "teamName": "España" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 90 ,
+            "offer" : true,
+            "price": 99
+    
+        }
+        ,{
+            "id": 18 ,
+            "teamName": "Costa Rica" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 65 ,
+            "offer" : false,
+            "price": 99
+    
+        },
+        {
+            "id": 19 ,
+            "teamName": "Alemania" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 80 ,
+            "offer" : false,
+            "price": 99
+    
+        }
+        ,{
+            "id": 20 ,
+            "teamName": "Japon" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 35 ,
+            "offer" : true,
+            "price": 99
+    
+        },
+        {
+            "id": 21 ,
+            "teamName": "Belgica" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 50 ,
+            "offer" : true,
+            "price": 99
+    
+        }
+        ,{
+            "id": 22 ,
+            "teamName": "Canada" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 28 ,
+            "offer" : false,
+            "price": 99
+    
+        },
+        {
+            "id": 23 ,
+            "teamName": "Marrueccos" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 30 ,
+            "offer" : true,
+            "price": 99
+    
+        }
+        ,{
+            "id": 24 ,
+            "teamName": "Croacia" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 19 ,
+            "offer" : false,
+            "price": 99
+    
+        },
+        {
+            "id": 25 ,
+            "teamName": "Brasil" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 77 ,
+            "offer" : true,
+            "price": 99
+    
+        }
+        ,{
+            "id": 26 ,
+            "teamName": "Serbia" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 36 ,
+            "offer" : true,
+            "price": 99
+    
+        },
+        {
+            "id": 27 ,
+            "teamName": "Suiza" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 40 ,
+            "offer" : false,
+            "price": 99
+    
+        }
+        ,{
+            "id": 28 ,
+            "teamName": "Camerun" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 55 ,
+            "offer" : false,
+            "price": 99
+    
+        },
+        {
+            "id": 29 ,
+            "teamName": "Portugal" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 63 ,
+            "offer" : true,
+            "price": 99
+    
+        }
+        ,{
+            "id": 30 ,
+            "teamName": "Ghana" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 44 ,
+            "offer" : true,
+            "price": 99
+    
+        },
+        {
+            "id": 31 ,
+            "teamName": "Uruguay" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 70 ,
+            "offer" : false,
+            "price": 99
+    
+        }
+        ,{
+            "id": 32 ,
+            "teamName": "Rep. de Corea" ,
+            "Size": ["large" , "midium" , "small"],
+            "stock": 75 ,
+            "offer" : true,
+            "price": 99
+    
+        }
+    ]
+}
+    
