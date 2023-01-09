@@ -10,9 +10,18 @@
     <main>
       <section class="contenido">
         <div class="contenedor-contenido">
+
+          <% if (locals.errors) {%>
+            <% errors.forEach(error=> { %>
+                <p>
+                    <%= error.msg %>
+                </p>
+                <% })} %>
+
+
           <h1>LOGIN</h1>
           <p>Accede a tu cuenta</p>
-          <form action="/" method="get" class="login">
+          <form action="/users" method="POST" class="login">
             <input type="email" id="email" name="email" placeholder="EMAIL" />
             <input
               type="password"
@@ -20,8 +29,10 @@
               name="password"
               placeholder="CONTRASEÑA"
             />
+            <input type="checkbox" name="recordame" id="recordame">
+            <label for="recordame">Recordar</label>
 
-            <a href="/register" class="ir-a">¿No tienes cuenta? Regístrate</a>
+            <a href="/users/register" class="ir-a">¿No tienes cuenta? Regístrate</a>
 
             <div class="boton_ingresar"><button>Ingresar</button></div>
           </form>
